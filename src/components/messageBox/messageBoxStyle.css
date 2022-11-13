@@ -1,0 +1,151 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 0px;
+}
+.messagebox .messagebox-content{
+    width: 650px;
+    border-radius: 20px;
+    box-shadow: 0 3px 10px rgb(0, 0, 0, 0.2);
+}
+.messagebox .messagebox-content .messagebox-header {
+    color: white;
+    background: rgba(80, 80, 255, 0.902);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.messagebox .messagebox-content .messagebox-header h1{
+    margin: 0px;
+}
+.messagebox .messagebox-content .messagebox-body{
+    height: 420px;
+    overflow: auto;
+    background: rgba(249, 249, 249, 0.744);
+}
+
+.messagebox .messagebox-content .messagebox-body::-webkit-scrollbar {
+    width: 8px;
+}
+  
+.messagebox .messagebox-content .messagebox-body::-webkit-scrollbar-track {
+    background-color: #ffffff00;
+}
+  
+.messagebox .messagebox-content .messagebox-body::-webkit-scrollbar-thumb {
+background-color: rgba(225, 221, 221, 0.89);
+border-radius: 100px;
+}
+.messagebox .message-section{
+    width: 95%;
+    height: 100%;
+    background: #ffffff;
+    border-radius: 20px;
+}
+.messagebox .message-section .user-content img{
+    width: 65px;
+    height: 65px;
+}
+.messagebox .message-section .user-content .user-message{
+    text-align: left;
+}
+.messagebox .message-section .user-content .user-message button{
+    font-size: 12px;
+    font-weight: bold;
+    color: #a9a9a9;
+    background: none;
+    border: none;
+    outline: none;
+    width: 20px;
+} 
+.messagebox .message-section .user-replay-inputs{
+    display: flex;
+    margin-left: 65px;
+}
+.messagebox .message-section .user-replay-inputs input{
+    padding: 5px 10px;
+    border: 1px solid rgba(238, 238, 238, 0.932);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.messagebox .message-section .user-replay-inputs button{
+    padding: 5px;
+    border: 1px solid rgba(238, 238, 238, 0.932);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.messagebox .comments-section{
+    margin-left: 60px;
+    border-top: 1px solid rgba(203, 203, 203, 0.779);
+}
+.messagebox .replay-comments{
+    justify-content: left;
+}
+.messagebox .replay-comments span img{
+    width: 20px;
+    height: 20px;
+}
+.messagebox .replay-comments span p{
+    margin:0px 10px;
+}
+.messagebox .replay-comments .replayed-msg-comments button{
+    font-size: 12px;
+    font-weight: bold;
+    color: #a9a9a9;
+    background: none;
+    border: none;
+    outline: none;
+    width: 20px;
+}
+.messagebox .message-section .comments-replay-inputs input{
+    border: 1px solid rgba(238, 238, 238, 0.932);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    outline: none;
+}
+.messagebox .message-section .comments-replay-inputs .comments-replay-button{
+    border: 1px solid rgba(238, 238, 238, 0.932);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    outline: none;
+}
+.messagebox .comments-section .replayed-msg-comments{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+.messagebox .comments-section .comments-replay-inputs input{
+    border: none;
+    font-size: 12px;
+    outline: none;
+    border-radius: 0%;
+    border-bottom: 1px solid rgba(238, 238, 238, 0.932);
+}
+
+.messagebox .comments-section .comments-replay-inputs .comments-replay-button{  
+    background: none; 
+    border: none;
+    border-radius: 0%;
+}
+.messagebox .messagebox-content .messagebox-footer input{
+    height: 50px;
+    outline: none;
+    padding-left: 20px;
+    border-right: none;
+    border-bottom: none;
+    border: 1px solid rgba(238, 238, 238, 0.932);
+}
+.messagebox .messagebox-content .messagebox-footer .username-input{
+    width: 40%;
+    border-left: none;
+    border-bottom-left-radius: 20px;
+}
+.messagebox .messagebox-content .messagebox-footer .message-input{
+    width: 50%;
+}
+.messagebox .messagebox-content .messagebox-footer .msg-send-button{
+    width: 20%;
+    border: none;
+    outline: none;
+    border-bottom-right-radius: 20px;
+}
+
